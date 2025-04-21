@@ -1,0 +1,54 @@
+# Node modules y dependencias
+node_modules/
+dist/
+build/
+.vite/
+.vite-cache/
+*.log
+
+# Archivos del sistema y temporales
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
+*.swp
+
+# Archivos del editor
+.vscode/
+.idea/
+*.code-workspace
+
+# Git y seguridad
+.env
+.env.local
+.env.*.local
+
+# Archivos grandes y backups
+*.zip
+*.rar
+*.7z
+*.tar.gz
+*.bak
+*.old
+
+# Archivos de sistema de Windows
+$RECYCLE.BIN/
+System Volume Information/
+
+# PHP & backend
+/vendor/
+*.sql
+*.sqlite
+*.db
+
+# React/Vite
+react-app/.env
+react-app/.env.local
+react-app/.cache
+
+# Public react build
+/public/react/assets/*.js.map
+/public/react/assets/*.css.map
+
+# Archivos personales
+*.secret
